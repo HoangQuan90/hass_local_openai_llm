@@ -48,7 +48,7 @@ from openai.types.shared_params import FunctionDefinition
 from openai.types.shared_params.response_format_json_schema import JSONSchema
 
 if TYPE_CHECKING:
-    import voluptuous as vol
+    import probatio as vol
 else:
     try:
         import probatio as vol
